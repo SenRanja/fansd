@@ -1,0 +1,22 @@
+# 日志问价 .log 文件
+*.log
+
+# python编译出来的 .pyc 文件
+*.pyc
+
+# 忽略pycharm
+**/.idea/
+
+# 忽略vscode
+**/.vscode
+
+# 忽略pyc编译文件
+**/__pycache__
+
+# 忽略 python setup.py build/sdist 的中间产物
+build/
+dist/
+MANIFEST
+
+# 忽略test文件
+test.py
